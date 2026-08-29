@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(237, 14, 14);
+    color: aliceblue;
+}
+
+td{
+    border: 3px solid black;
+}
