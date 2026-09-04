@@ -186,16 +186,16 @@
  }
 
  .h1 {
-     border: 2px solid black;
-     width: 400px;
-     border-radius: 19px;
-     text-shadow: 2px 2px 2px rgb(85, 82, 82);
-     box-shadow: 20px 5px 40px rgb(85, 82, 82);
-     display: flex;
-    justify-content: center; 
-    align-items: center;  
+    background-color: azure;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 20px 5px 40px rgb(82, 85, 83);;
+    text-shadow: 2px 2px 4px rgba(236, 243, 239, 0.874);
+    font-family:   Georgia, serif;
     
-
  }
 
  #p2 {
