@@ -1,3 +1,5 @@
+    
+       
 .h1{
     background-color: azure;
     width: 300px;
@@ -13,7 +15,8 @@
 }
 body{
     background-color: rgb(101, 244, 165, 0.874);
-   
+    /* text-align: center;
+    */
 }
 
 @media only screen and (max-width: 455px){
@@ -70,3 +73,51 @@ body{
         input::placeholder {
             color: rgb(38, 38, 225);
         }
+        .container{
+            border: 2px dotted red;
+            height: 15vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100vh;
+            /* row-gap: 30px; */
+            column-gap: 20px;
+            flex-wrap: wrap;
+            align-content: flex-start;
+
+
+        }
+        .item{
+            border: 3px solid black;
+            height: 32px;
+            width: 32px;
+            /* margin: 4px; */
+            background-color: blueviolet;
+        }
+         /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        .boxT {
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            transform: rotate(0.125turn);
+            transform-origin: -50% -50%;
+            /* transform: rotateZ(9deg); */
+            /* transform: skewY(34deg); */
+            /* transform: translateY(100%) skewX(40deg) translateX(45%); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container1 {
+            margin: 55px;
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    
